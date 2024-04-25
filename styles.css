@@ -18,7 +18,6 @@
 }
 .sidenav {
   height: 100%;
-  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -40,6 +39,7 @@
 
 .sidenav a:hover {
   color: #f1f1f1;
+  cursor: pointer;
 }
 
 .sidenav .closebtn {
@@ -90,7 +90,7 @@
   background-image: url(img/bg-masthead.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,7 +127,7 @@ em {
   margin: 45px;
   border: 2px solid #1d809f;
   border-radius: 5px;
-  padding: 20px 40px;
+  padding: 15px 30px;
   background-color: #1d809f;
   color: white;
   text-decoration: none;
@@ -137,39 +137,36 @@ em {
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 120px 0;
+  text-align: center;
+  padding: 75px 0px 125px 0px;
 }
 .about h2 {
-  display: block;
   font-size: 31px;
-  margin-bottom: 8px;
   color: #212529;
   font-weight: 700;
   line-height: 1.2;
   font-family: "sans";
-}
-.about p {
-  font-size: 19px;
-  color: #212529;
-  margin-bottom: 48px;
-  display: block;
-  font-family: "sans-para";
 }
 .about .small-text {
   color: #1d809f;
   text-decoration: underline;
   font-family: "sans-para";
 }
+.about p {
+  font-size: 18.5px;
+  color: #212529;
+  font-family: "sans-para";
+}
 .about a {
   border-radius: 5px;
-  padding: 20px 40px;
+  padding: 15px 30px;
   background-color: #212529;
   color: white;
   text-decoration: none;
   font-family: "sans-para";
   font-size: 16px;
+  position: relative;
+  top: 34px;
 }
 
 .services {
@@ -221,6 +218,7 @@ em {
 }
 .flex-container .flex-box p {
   font-size: 16px;
+  line-height: 2;
   color: rgba(255, 255, 255, 0.7019607843);
   font-family: "sans-para";
 }
@@ -246,6 +244,7 @@ em {
 
 .blog {
   background-image: url(img/bg-callout.jpg);
+  height: 80vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -270,7 +269,7 @@ em {
 .blog a {
   border: 2px solid #1d809f;
   border-radius: 5px;
-  padding: 20px 40px;
+  padding: 15px 30px;
   background-color: #1d809f;
   color: white;
   text-decoration: none;
@@ -287,7 +286,8 @@ em {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 0;
+  padding: 90px 0;
+  font-family: "sans";
 }
 
 .port {
@@ -318,65 +318,18 @@ em {
   background-size: cover;
 }
 
-.h5p {
-  display: flex;
-  flex-direction: column;
-  padding-left: 72px;
-  color: white;
-  margin-top: 195px;
+.h51 {
+  position: relative;
+  top: 30vh;
+  left: 30px;
 }
-.h5p h5 {
-  margin-bottom: 8px;
+.h51 h5 {
+  color: white;
   font-family: "sans";
 }
-.h5p p {
-  font-family: "sans-para";
-}
-
-.h5p1 {
-  display: flex;
-  flex-direction: column;
-  padding-left: 72px;
+.h51 p {
   color: white;
-  margin-top: 178px;
-}
-.h5p1 h5 {
-  margin-bottom: 8px;
-  font-family: "sans";
-}
-.h5p1 p {
-  font-family: "sans-para";
-}
-
-.h5p2 {
-  display: flex;
-  flex-direction: column;
-  padding-left: 72px;
-  color: white;
-  margin-top: 195px;
-  margin-bottom: 8px;
-}
-.h5p2 h5 {
-  margin-bottom: 8px;
-  font-family: "sans";
-}
-.h5p2 p {
-  font-family: "sans-para";
-}
-
-.h5p3 {
-  display: flex;
-  flex-direction: column;
-  padding-left: 72px;
-  color: white;
-  margin-top: 195px;
-  margin-bottom: 8px;
-}
-.h5p3 h5 {
-  margin-bottom: 8px;
-  font-family: "sans";
-}
-.h5p3 p {
+  margin-top: 8px;
   font-family: "sans-para";
 }
 
@@ -405,7 +358,7 @@ em {
   justify-content: center;
   align-items: center;
   background-color: #1d809f;
-  padding: 120px 0;
+  padding: 90px 0;
 }
 .qta h3 {
   width: 100%;
@@ -420,7 +373,7 @@ em {
 .btn-1 {
   background-color: #f1f1f1;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 15px 30px;
   color: #000;
   font-family: "sans-para";
   border-radius: 5px;
@@ -430,7 +383,7 @@ em {
 .btn-2 {
   background-color: #000;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 15px 30px;
   color: #fff;
   font-family: "sans-para";
   border-radius: 5px;
@@ -438,7 +391,7 @@ em {
 
 .maps {
   height: 480px;
-  background-image: url(Screenshot\ 2024-04-21\ 110621.png);
+  background-image: url(IMG-20240423-WA0011.jpg);
 }
 
 .footer {
@@ -549,7 +502,7 @@ em {
     font-size: 13px;
   }
   .about p {
-    margin-left: 17px;
+    font-size: 13px;
   }
   .span1 {
     /* margin-left: 30px; */
