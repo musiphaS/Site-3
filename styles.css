@@ -394,7 +394,7 @@ em {
 
 @media only screen and (max-width: 576px) {
   .blog {
-    height: 70vh;
+    height: 65vh;
   }
   .qta h3 {
     font-size: 20px;
@@ -495,6 +495,15 @@ em {
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+  .flex-container .flex-box p {
+    font-size: 16px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.7019607843);
+    font-family: "sans-para";
+  }
+  .blog {
+    height: 65vh;
+  }
   .flex-container .flex-box {
     text-align: center;
     width: 190px;
@@ -522,9 +531,15 @@ em {
   .h5p3 p {
     margin-bottom: 30px;
   }
+  .text-inside {
+    margin-top: 34%;
+  }
 }
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
   .banner {
     height: 70vh;
+  }
+  .blog {
+    height: 60vh;
   }
 }/*# sourceMappingURL=styles.css.map */
