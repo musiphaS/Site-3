@@ -492,52 +492,6 @@ em {
     display: flex;
     flex-direction: column;
   }
-  .pics1 {
-    background-image: url(img/portfolio-1.jpg);
-    height: 200px;
-    background-size: cover;
-  }
-  .pics1 .pics2 {
-    width: 330px;
-  }
-  .pics1 .pics3 {
-    width: 330px;
-  }
-  .pics1 .pics4 {
-    width: 330px;
-  }
-  .pics1 .qta h3 {
-    margin-left: 40px;
-    font-size: 20px;
-  }
-  .pics1 .banner h1 {
-    font-size: 48px;
-  }
-  .pics1 .banner em {
-    font-size: 15px;
-  }
-  .pics1 .about a {
-    padding: 15px 20px;
-  }
-  .pics1 .menu-toggle {
-    position: fixed;
-  }
-  .pics1 .about {
-    padding: 120px 10px;
-  }
-  .pics1 .about h2 {
-    font-size: 13px;
-  }
-  .pics1 .about p {
-    font-size: 13px;
-  }
-  .pics1 .span1 {
-    /* margin-left: 30px; */
-    font-size: 25px;
-  }
-  .pics1 .blog a {
-    padding: 15px 20px;
-  }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .flex-container .flex-box {
