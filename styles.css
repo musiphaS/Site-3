@@ -411,15 +411,15 @@ em {
   .banner {
     height: 80vh;
   }
+  .banner a {
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
   .banner h1 {
     font-size: 30px;
   }
   em {
     font-size: 15px;
-  }
-  .banner a {
-    padding: 15px 20px;
-    margin-top: 10px;
   }
   .port1 {
     font-size: 30px;
@@ -473,10 +473,10 @@ em {
     font-size: 30px;
   }
   .about h2 {
-    font-size: 19px;
+    font-size: 18px;
   }
   .about p {
-    font-size: 14px;
+    font-size: 13px;
     color: #212529;
     font-family: "sans-para";
   }
