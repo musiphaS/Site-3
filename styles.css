@@ -398,6 +398,9 @@ em {
 }
 
 @media only screen and (max-width: 576px) {
+  .footer i {
+    margin-right: 15px;
+  }
   .text-inside {
     margin-top: 30%;
   }
