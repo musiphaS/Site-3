@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 @font-face {
@@ -310,6 +309,7 @@ em {
 .text-inside h2 {
   font-size: 20px;
   font-family: "sans-h1";
+  margin-top: 20px;
 }
 .text-inside p {
   font-size: 18px;
@@ -318,7 +318,7 @@ em {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 275px;
 }
 
 .qta {
@@ -374,7 +374,7 @@ em {
   border-radius: 50%;
   display: block;
   font-size: 24px;
-  margin-right: 8px;
+  margin-right: 25px;
   height: 64px;
   width: 64px;
 }
@@ -386,7 +386,9 @@ em {
 .footer p {
   font-family: "sans-para";
   color: #6c757d;
-  margin-bottom: 20px;
+  position: relative;
+  top: 30px;
+  right: 9px;
 }
 
 .img2 {
