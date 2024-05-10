@@ -9,7 +9,7 @@
     font-family: "sans-para";
     src: url(SourceSansPro-Regular.ttf)
 }
-// dont forget to remove this font sytle 
+
 @font-face {
     font-family: "sans-h1";
     src: url("SourceSansPro-Bold.ttf")
@@ -40,7 +40,10 @@
     color: #fff;
     display: block;
     transition: 0.3s;
-  }
+    line-height: 4.5;
+    display: flex;
+    justify-content: center;
+}
   
   .sidenav a:hover {
     color: #f1f1f1;
@@ -49,10 +52,10 @@
   
   .sidenav .closebtn {
     position: absolute;
-    top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    top: -65px;
   }
 
   .bars {
@@ -83,21 +86,20 @@
     transform: translateX(250px);
     background-color: #212529;
 }
-
-// .sidebar-nav {
-//     position: absolute;
-//     top: 0;
-//     width: 250px;
-//     list-style: none;
-// }
         
+// const navItems = document.querySelectorAll('#sidebar-wrapper ul li a');
+// navItems.forEach(item => {
+//     item.addEventListener('click', () => {
+//         document.getElementById('sidebar-wrapper').classList.remove('active');
+//     });
+// });
 
 
 .banner {
     background-image: url(img/bg-masthead.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,12 +218,6 @@ em {
     }
         
     }
-  
-
-
-
-
-
 
 .img {
         background-color: white;
@@ -261,13 +257,12 @@ em {
 .services i {
     height: 112px;
     width: 112px;
-    padding: 35px;
+    padding: 27px;
     border-radius: 50%;
     background-color: #fff;
     color: #0080A3;
     font-size: 30px;
     margin-bottom: 20px;
-    // margin: 0px 34px 16px;
 }
 
 
@@ -281,7 +276,6 @@ em {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // padding:190px 0;
     font-family: "sans";
 }
 
@@ -290,7 +284,6 @@ em {
     font-size: 40px;
     color: #212529;
     line-height: 1.2;
-    // margin: 0px 192px 48px;
     margin-bottom: 25px;
 }
 .blog p {
@@ -310,27 +303,6 @@ em {
   justify-content: center;
 }
 
-// .Portfolio {
-//     // display: flex;
-//     // flex-direction: column;
-//     // justify-content: center;
-//     // align-items: center;
-//     padding: 90px 0;
-//     font-family: "sans";
-// }
-
-// .port {
-//     color: #e5b21b;
-//     font-size: 16px;
-//     display: block;
-//     font-family: "sans";
-// }
-// .port1 {
-//     color: #212529;
-//     font-size: 48px;
-//     margin-bottom: 20px;
-//     font-family: "sans";
-// }
 .portfolio {
     padding: 50px 0;
 }
@@ -374,38 +346,13 @@ em {
     max-width: 100%;
     height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .qta {
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: center;
     align-items: center;
     background-color:#1d809f;
     padding: 120px 0;
 
     h3 {
-        // width: 100%;
-        // display: flex;
         justify-content: center;
-        // margin: 25px 0;
         margin-bottom: 24px;
         color: white;
         font-size: 30px;
@@ -458,7 +405,6 @@ em {
         border-radius: 50%;
         display: block;
         font-size: 24px;
-        // align-items: centre;
         margin-right: 8px;
         height: 64px;
         width: 64px;
@@ -562,9 +508,7 @@ em {
     }
 
     .flex-box h3 {
-        // font-family: "sans";
         font-size: 15px;
-        // font-weight: bolder;
     }
 
     .blog a {
@@ -572,7 +516,6 @@ em {
     }
     .blog h2 {
         font-size: 30px;
-        // margin: 0px 60px 48px;
     }
 
     .services {
@@ -596,7 +539,6 @@ em {
 
     .flex-container .flex-box {
         text-align: center;
-        // width: 250px;
         height: 30vh;
         color: white;
     }
@@ -625,10 +567,6 @@ em {
         height: 80px;
         color: white;
     }
-
-    // .flex-box {
-    //     width: 190px;
-    // }
     .banner {
         height: 70vh;  
     }
@@ -639,9 +577,7 @@ em {
         font-size: 15px;
     }
     .services .serv1 {
-        // color: white;
         font-size: 35px;
-        // margin-bottom: 40px;
     }
 
     .port1 {
