@@ -414,7 +414,7 @@ em {
     margin-bottom: 18px;
   }
   .footer {
-    padding: 50px 0;
+    padding: 40px 0;
   }
   .banner {
     height: 80vh;
@@ -438,13 +438,22 @@ em {
     margin-top: 50px;
   }
   .heading h2 {
-    font-size: 30px;
+    font-size: 24px;
   }
   .flex-box h3 {
     font-size: 20px;
   }
-  .flex-box p {
-    font-size: 15px;
+  .flex-container .flex-box p {
+    font-size: 14px;
+  }
+  .footer .footer-inside {
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+  .footer p {
+    position: relative;
+    top: 30px;
+    left: 2px;
   }
   .portfolio {
     padding: 10px;
@@ -467,8 +476,8 @@ em {
   .btn-2 {
     padding: 10px 15px;
   }
-  .flex-box h3 {
-    font-size: 15px;
+  .flex-container .flex-box h3 {
+    font-size: 18px;
   }
   .blog a {
     padding: 10px 15px;
@@ -509,6 +518,9 @@ em {
     line-height: 1;
     color: rgba(255, 255, 255, 0.7019607843);
     font-family: "sans-para";
+  }
+  .services i {
+    padding: 25px;
   }
   .blog {
     height: 65vh;
