@@ -6,6 +6,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
+  
   document.getElementById ('mySidenav')
   .addEventListener ('click', function() {
     this.classList.toggle('sidebar-wrapper')
